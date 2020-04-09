@@ -57,21 +57,24 @@ export default function Register() {
                 </section>
 
                 <form onSubmit={handleRegister}>
-                    <input 
+                    <input
                         placeholder="Nome da ONG"
                         value={name}
                         onChange={e => setName(e.target.value)} //arrow function para alterar o state do name
+                        required
                     />
                     <input 
                         type="email"
                         placeholder="E-mail"
                         value={email}
-                        onChange={e => setEmail(e.target.value)} //arrow function para alterar o state do email    
+                        onChange={e => setEmail(e.target.value)} //arrow function para alterar o state do email
+                        required
                     />
                     <input 
                         placeholder="WhatsApp"
                         value={whatsapp}
-                        onChange={e => setWhatsapp(e.target.value)} //arrow function para alterar o state do whatsapp 
+                        onChange={e => setWhatsapp(e.target.value)} //arrow function para alterar o state do whatsapp
+                        required
                     />
 
                     <div className="input-group">
@@ -79,12 +82,14 @@ export default function Register() {
                             placeholder="Cidade"
                             value={city}
                             onChange={e => setCity(e.target.value)} //arrow function para alterar o state do campo city
+                            required
                         />
                         <input 
                             readOnly
                             style={{ width: 80 }}
                             value={uf}
                             onChange={e => setUf(e.target.value)} //arrow function para alterar o uf (caso seja preciso)
+                            required
                         />
                     </div>
 

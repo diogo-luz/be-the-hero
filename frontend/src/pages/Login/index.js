@@ -43,6 +43,7 @@ export default function Login(){
                         placeholder="O seu ID"
                         value={id}
                         onChange={e => setId(e.target.value)} //arrow function para alterar o state do id
+                        required
                     />
                     <button className="button" type="submit">Entrar</button>
 
