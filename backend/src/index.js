@@ -3,6 +3,9 @@ const express = require('express');
 //require do cors para segurança da bd
 const cors = require('cors');
 
+//para que os erros da aplicação por validação não caiam no erro 500 por exemplo
+const { errors } = require('celebrate');
+
 //vamos importar as rotas do routes.js
 const routes = require('./routes'); //importante dar o caminho para o programa nao pensar que isto é um pacote
 
@@ -17,5 +20,8 @@ app.use(express.json());
 
 //isto tem de ser depois da linha express.json()
 app.use(routes);
+
+//para que se utilizem os errors do celebrate e quando há um erro cair num bad request
+app.use(errors());
 
 app.listen(3333);
