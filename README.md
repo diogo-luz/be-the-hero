@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
@@ -43,13 +43,13 @@ O BeTheHero é um projeto que tem o objetivo de conectar pessoas que desejam faz
 - Faça um fork deste repositório;
 - Crie um branch com a sua feature: `git checkout -b a-minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: A minha nova feature'`;
-- Faça push para o seu branch: `git push origin minha-feature`.
+- Faça push para o seu branch: `git push origin a-minha-feature`.
 
 Depois de o merge da sua pull request ser efetuado, poderá apagar o seu branch.
 
 ## :memo: Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está sob a licença MIT. Leia o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
