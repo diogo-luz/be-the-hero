@@ -1,5 +1,4 @@
-//vamos usar um método do crypto para gerar um id aleatório
-const crypto = require('crypto');
+const generateUniqueId = require('../utils/generateUniqueId');
 //importamos o connection que criámos na pasta db para conseguir fazer as operacoes com a db
 const connection = require('../database/connection');
 
@@ -14,7 +13,7 @@ module.exports =  {
         const { name, email, whatsapp, city, uf } = request.body;
 
         //vai gerar 4 bytes de caracteres hexadecimais para o id
-        const id = crypto.randomBytes(4).toString('HEX');
+        const id = generateUniqueId();
 
         /**
          * esta inserção vai demorar um pouco, entao para que a response

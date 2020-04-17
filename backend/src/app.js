@@ -24,4 +24,4 @@ app.use(routes);
 //para que se utilizem os errors do celebrate e quando há um erro cair num bad request
 app.use(errors());
 
-app.listen(3333);
+module.exports = app;
