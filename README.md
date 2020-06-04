@@ -45,7 +45,7 @@ O BeTheHero é um projeto que tem o objetivo de conectar pessoas que desejam faz
 - Faça commit das suas alterações: `git commit -m 'feat: A minha nova feature'`;
 - Faça push para o seu branch: `git push origin a-minha-feature`.
 
-Depois de o merge da sua pull request ser efetuado, poderá apagar o seu branch.
+Após o merge da sua pull request ser efetuado, poderá apagar o seu branch.
 
 ## :memo: Licença
 
